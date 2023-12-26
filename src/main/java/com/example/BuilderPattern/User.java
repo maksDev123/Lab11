@@ -6,7 +6,7 @@ enum Gender {
     MALE, FEMALE
 }
 @Builder
-@Getter
+
 public class User {
     private String name;
     private int age;
