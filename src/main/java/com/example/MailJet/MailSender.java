@@ -12,8 +12,8 @@ import com.mailjet.client.errors.MailjetSocketTimeoutException;
 import com.mailjet.client.resource.Emailv31;
 
 public class MailSender {
-    private static String PrivaKey = "5a19c10af94e39180053ac7bee1266d7";
-    private static String SecretKey = "1f61545884a79bfb24410240d497e005";
+    private static String PrivaKey = "";
+    private static String SecretKey = "";
 
     public static String greetingType(int MailCode) {
         if (MailCode == 1) {
