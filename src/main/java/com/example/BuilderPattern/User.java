@@ -6,7 +6,6 @@ enum Gender {
     MALE, FEMALE
 }
 @Builder
-
 public class User {
     private String name;
     private int age;
@@ -44,5 +43,11 @@ public class User {
         this.age = 0;
         this.weight = 0;
         this.height = 0;
+    }
+    public int getAge(){
+        return this.age;
+    }
+    public String getName(){
+        return this.name;
     }
 }
